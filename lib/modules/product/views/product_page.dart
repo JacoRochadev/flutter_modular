@@ -13,7 +13,7 @@ class ProductPage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Modular.to.pushNamed('./products');
+            Modular.to.navigate('./products');
           },
           child: const Text('Listar produtos'),
         ),
